@@ -3,7 +3,12 @@ import React from "react";
 class Weather extends React.Component {
 	render(){
 		return (
-			<div></div>
+			<div>
+				<p>Location: { this.props.city }, { this.props.country}</p>
+				<p>Temerature: { this.props.temperature }</p>
+				<p>Humidity: { this.props.humidity }</p>
+				<p>Description: { this.props.description }</p>
+			</div>
 		);
 	}
 }
