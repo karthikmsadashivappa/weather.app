@@ -1,9 +1,9 @@
 import React from "react";
 
 const Titles = () => (
-			<div>
-				<h1>Weather Finder</h1>
-				<p>Find our Temperature conditions and more...</p>
+			<div className="intro-message">
+				<h1 className="intro">Receive your free <br/> 
+					daily weather forecast.</h1>
 			</div>
 );
 

@@ -1,9 +1,10 @@
 import React from "react";
+import '../App.css';
 
 const Header = (props) => (
 		<div>
-			<header>
-				<a href="/"><i class="fas fa-sun"></i>Weather<span>Track</span></a>
+			<header className="top-section">
+				<a className="title" href="/"><i className="far fa-sun"></i>Weather<span>Track</span></a>
 			</header>
 		</div>
 );

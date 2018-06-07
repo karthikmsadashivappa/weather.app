@@ -1,0 +1,115 @@
+.top-section {
+	margin: 2rem;
+	padding: 1rem;
+}
+
+.fa-sun {
+	color: #FF6A48;
+	margin-right: 0.3rem;
+}
+
+.title {
+	font-size: 2rem;
+	text-decoration: none;
+	color: #547BF9;
+}
+
+.title:hover {
+	text-decoration: none;
+	color: #547BF9;
+}
+
+.title span {
+	color: #FF0000;
+}
+
+.intro {
+	font-weight: 400;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+.intro-message {
+	margin: 6rem 4rem 0rem 4rem;
+	padding: 4rem;
+	color: #352F41;
+}
+
+.form-intro {
+	font-size: 1.7rem;
+	padding-bottom: 1.5rem;
+}
+
+.main-form {
+	margin: 3rem;
+	padding: 2rem;
+}
+
+input.input-form {
+	border: none;
+    border-radius: 66px;
+    background-color: #eee;
+    padding: 10px;
+    margin-right: 14px;
+    outline: none;
+    -webkit-box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.3);
+	-moz-box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.3);
+	box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.3);
+}
+
+.submit-buttom {
+	border: none;
+    border-radius: 66px;
+    color: #ffffff;
+    background-color: #7C7486;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+.footer-title {
+	color: #547BF9;
+}
+
+.footer-title:hover {
+	text-decoration: none;
+	color: #547BF9;
+}
+
+.footer-title span {
+	color: #FF0000;
+}
+
+.main_footer {
+	text-align: center;
+	padding: 2.5em 0;
+	margin-top: 4em;
+}
+
+.main_footer .footer_logo {
+	font-size: 1em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.main_footer .copyright {
+	color: #8b8b9f;
+	font-size: .75em;
+}
+
+.footer_links {
+	display: inline;
+}
+
+.footer_links a {
+	color: #8b8b9f;
+	font-size: .75em;
+	text-decoration: none;
+	margin: 0 .5em;
+}
+
+.footer_links a:hover {
+	color: #73e298;
+}

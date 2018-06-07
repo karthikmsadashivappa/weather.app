@@ -3,6 +3,7 @@ import Title from './components/Title';
 import Form from './components/Form';
 import Weather from './components/Weather';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 const API_KEY = "45decf72ca92022978d10c03858bc9e0";
 
@@ -68,6 +69,7 @@ class App extends Component {
 				humidity={this.state.humidity}
 				description={this.state.description}
 				error={this.state.error}/>
+				<Footer />
 			</div>
 		);
 	}
