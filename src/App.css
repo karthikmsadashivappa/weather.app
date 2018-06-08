@@ -30,7 +30,7 @@
 }
 
 .intro-message {
-	margin: 6rem 4rem 0rem 4rem;
+	margin: 4rem 4rem 0rem 4rem;
 	padding: 4rem;
 	color: #352F41;
 }
@@ -67,6 +67,20 @@ input.input-form {
     padding: 12px 30px;
     font-size: 1.2rem;
     outline: none;
+}
+
+.weather {
+	display: flex;
+	justify-content: space-around;
+}
+
+.weather p {
+		text-align: center;
+
+}
+
+.fa-map-marker-alt {
+	text-align: center;
 }
 
 .footer-title {
