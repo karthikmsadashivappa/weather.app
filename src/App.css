@@ -153,7 +153,8 @@ input.input-form {
 
 /*--------------*/
 
-@media (max-width: 430px) {
+
+@media (max-width: 450px) {
 	.intro {
 		font-size: 2.3rem;
 		text-align: center;
@@ -184,4 +185,24 @@ input.input-form {
 		width: 100%;
 		margin-bottom: 15px;
 	}
+}
+
+@media (max-width: 750px) {
+	.weather {
+    	display: -ms-flexbox;
+    	display: flex;
+    	-ms-flex-pack: distribute;
+    	justify-content: space-around;
+    	flex-wrap: wrap;
+	}
+	.weather p {
+    	text-align: center;
+    	font-size: 18px;
+    	color: #8b8b9f;
+    	padding: 30px;
+    	border-radius: 4px;
+    	box-shadow: 0 5px 15px 0 rgba(37,44,97,0.15), 0 2px 4px 0 rgba(93,100,148,0.2);
+    	margin: 5px 25px;
+    	width: 100%;
+}
 }
